@@ -14,6 +14,7 @@
 		CECF84BA204EF44E00025D69 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF84B9204EF44E00025D69 /* ChatVC.swift */; };
 		CECF84BC204EF46300025D69 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF84BB204EF46300025D69 /* ChannelVC.swift */; };
 		CECF84BD204EFEB200025D69 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF84B3204EEF8600025D69 /* SWRevealViewController.m */; };
+		CECF84BF204FA25900025D69 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF84BE204FA25900025D69 /* GradientView.swift */; };
 		E826D2A764925384F86D074A /* Pods_Smack2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B3A0C4F880D2525F2772F4 /* Pods_Smack2.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		CECF84B4204EEF8600025D69 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		CECF84B9204EF44E00025D69 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		CECF84BB204EF46300025D69 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		CECF84BE204FA25900025D69 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		CECF84B8204EF43200025D69 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CECF84BE204FA25900025D69 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				CECF84BC204EF46300025D69 /* ChannelVC.swift in Sources */,
 				CECF84BA204EF44E00025D69 /* ChatVC.swift in Sources */,
+				CECF84BF204FA25900025D69 /* GradientView.swift in Sources */,
 				CECF84A0204C57FA00025D69 /* AppDelegate.swift in Sources */,
 				CECF84BD204EFEB200025D69 /* SWRevealViewController.m in Sources */,
 			);
