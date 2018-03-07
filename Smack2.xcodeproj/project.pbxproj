@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3B4E95205047FB00E8BF27 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B4E94205047FB00E8BF27 /* LoginVC.swift */; };
 		CECF84A0204C57FA00025D69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF849F204C57FA00025D69 /* AppDelegate.swift */; };
 		CECF84A5204C57FA00025D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECF84A3204C57FA00025D69 /* Main.storyboard */; };
 		CECF84A7204C57FA00025D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECF84A6204C57FA00025D69 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 		CECF84BC204EF46300025D69 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF84BB204EF46300025D69 /* ChannelVC.swift */; };
 		CECF84BD204EFEB200025D69 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF84B3204EEF8600025D69 /* SWRevealViewController.m */; };
 		CECF84BF204FA25900025D69 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF84BE204FA25900025D69 /* GradientView.swift */; };
+		CECF84C6204FC23600025D69 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF84C5204FC23600025D69 /* Constants.swift */; };
 		E826D2A764925384F86D074A /* Pods_Smack2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B3A0C4F880D2525F2772F4 /* Pods_Smack2.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +24,7 @@
 		070A76766F5A83A3C2974675 /* Pods-Smack2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack2/Pods-Smack2.debug.xcconfig"; sourceTree = "<group>"; };
 		2B313DD0DC29E05C2E448D90 /* Pods-Smack2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack2/Pods-Smack2.release.xcconfig"; sourceTree = "<group>"; };
 		52B3A0C4F880D2525F2772F4 /* Pods_Smack2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3B4E94205047FB00E8BF27 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CECF849C204C57FA00025D69 /* Smack2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECF849F204C57FA00025D69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECF84A4204C57FA00025D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		CECF84B9204EF44E00025D69 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		CECF84BB204EF46300025D69 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		CECF84BE204FA25900025D69 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		CECF84C5204FC23600025D69 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		CECF849E204C57FA00025D69 /* Smack2 */ = {
 			isa = PBXGroup;
 			children = (
+				CECF84C2204FC1BF00025D69 /* Utilities */,
 				CECF84B1204EEF3F00025D69 /* Supporting Files */,
 				CECF84B8204EF43200025D69 /* View */,
 				CECF84B7204EF42800025D69 /* Model */,
@@ -114,6 +119,7 @@
 			children = (
 				CECF84B9204EF44E00025D69 /* ChatVC.swift */,
 				CECF84BB204EF46300025D69 /* ChannelVC.swift */,
+				CE3B4E94205047FB00E8BF27 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +137,14 @@
 				CECF84BE204FA25900025D69 /* GradientView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CECF84C2204FC1BF00025D69 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CECF84C5204FC23600025D69 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +273,11 @@
 			files = (
 				CECF84BC204EF46300025D69 /* ChannelVC.swift in Sources */,
 				CECF84BA204EF44E00025D69 /* ChatVC.swift in Sources */,
+				CE3B4E95205047FB00E8BF27 /* LoginVC.swift in Sources */,
 				CECF84BF204FA25900025D69 /* GradientView.swift in Sources */,
 				CECF84A0204C57FA00025D69 /* AppDelegate.swift in Sources */,
 				CECF84BD204EFEB200025D69 /* SWRevealViewController.m in Sources */,
+				CECF84C6204FC23600025D69 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
