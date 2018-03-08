@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE3B4E95205047FB00E8BF27 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B4E94205047FB00E8BF27 /* LoginVC.swift */; };
+		CE3B4E972050C16400E8BF27 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B4E962050C16400E8BF27 /* CreateAccountVC.swift */; };
 		CECF84A0204C57FA00025D69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF849F204C57FA00025D69 /* AppDelegate.swift */; };
 		CECF84A5204C57FA00025D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECF84A3204C57FA00025D69 /* Main.storyboard */; };
 		CECF84A7204C57FA00025D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECF84A6204C57FA00025D69 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		2B313DD0DC29E05C2E448D90 /* Pods-Smack2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack2/Pods-Smack2.release.xcconfig"; sourceTree = "<group>"; };
 		52B3A0C4F880D2525F2772F4 /* Pods_Smack2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3B4E94205047FB00E8BF27 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CE3B4E962050C16400E8BF27 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		CECF849C204C57FA00025D69 /* Smack2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECF849F204C57FA00025D69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECF84A4204C57FA00025D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				CECF84B9204EF44E00025D69 /* ChatVC.swift */,
 				CECF84BB204EF46300025D69 /* ChannelVC.swift */,
 				CE3B4E94205047FB00E8BF27 /* LoginVC.swift */,
+				CE3B4E962050C16400E8BF27 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				CECF84BC204EF46300025D69 /* ChannelVC.swift in Sources */,
 				CECF84BA204EF44E00025D69 /* ChatVC.swift in Sources */,
+				CE3B4E972050C16400E8BF27 /* CreateAccountVC.swift in Sources */,
 				CE3B4E95205047FB00E8BF27 /* LoginVC.swift in Sources */,
 				CECF84BF204FA25900025D69 /* GradientView.swift in Sources */,
 				CECF84A0204C57FA00025D69 /* AppDelegate.swift in Sources */,
